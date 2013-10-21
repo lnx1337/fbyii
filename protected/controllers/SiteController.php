@@ -106,11 +106,10 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
-public function actionOtro(){
-
-
-	echo "hola";
-}
+     
+    public function actionOtro(){
+	     echo "hola";
+    }
 
 	protected function afterRender($view, &$output) {
   parent::afterRender($view,$output);
