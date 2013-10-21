@@ -114,8 +114,8 @@ class SiteController extends Controller
 
 	     $userid = Yii::app()->facebook->getUser(); 
          $loginUrl = Yii::app()->facebook->getLoginUrl();
-         $results = Yii::app()->facebook->api('/me'); 
-         print_r($results);
+         //$results = Yii::app()->facebook->api('/me'); 
+         //print_r($results);
          echo '<a href="<?php echo $loginUrl; ?> " >cambios </a> ';
 
     }
