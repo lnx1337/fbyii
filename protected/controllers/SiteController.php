@@ -116,11 +116,9 @@ class SiteController extends Controller
          $loginUrl = Yii::app()->facebook->getLoginUrl();
 
          if($userid){
-
          	$results = Yii::app()->facebook->api('/me'); 
             print_r($results);
          }else{
-
          	         echo '<a href="'.$loginUrl.'" >cambios </a> ';
 
          }
