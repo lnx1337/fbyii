@@ -30,6 +30,8 @@ class SiteController extends Controller
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
+
+
 	}
 
 	/**
@@ -108,7 +110,13 @@ class SiteController extends Controller
 	}
      
     public function actionOtro(){
-	     echo "hola";
+
+
+	     $userid = Yii::app()->facebook->getUser(); 
+         $loginUrl = Yii::app()->facebook->getLoginUrl();
+         $results = Yii::app()->facebook->api('/me'); 
+         echo '<a href="<?php echo $loginUrl; ?> " >cambios </a> ';
+
     }
 
 	protected function afterRender($view, &$output) {
