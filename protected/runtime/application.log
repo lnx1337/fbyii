@@ -1,0 +1,354 @@
+2013/10/21 17:44:00 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:45:35 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:45:38 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:45:39 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:46:33 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:46:34 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:46:35 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:46:35 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:46:36 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:46:36 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:46:36 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:46:36 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:47:39 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:47:41 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:47:42 [error] [exception.CException] exception 'CException' with message 'Alias "ext.yii-facebook-opengraph.SFacebook" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php(198): YiiBase::import('ext.yii-faceboo...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(387): YiiBase::createComponent(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModule.php(104): CModule->getComponent('facebook')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/views/site/index.php(1): CModule->__get('facebook')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', NULL, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', NULL, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(783): CController->renderPartial('index', NULL, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fblog/protected/controllers/SiteController.php(32): CController->render('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(283): CController->run('')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/fblog/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:48:51 [error] [exception.FacebookApiException] OAuthException: An active access token must be used to query information about the current user.
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:49:11 [error] [exception.FacebookApiException] OAuthException: An active access token must be used to query information about the current user.
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:49:14 [error] [exception.FacebookApiException] OAuthException: An active access token must be used to query information about the current user.
+REQUEST_URI=/fblog/
+---
+2013/10/21 17:49:47 [error] [exception.FacebookApiException] OAuthException: An active access token must be used to query information about the current user.
+REQUEST_URI=/fblog/
+---
+2013/10/21 18:36:22 [error] [exception.FacebookApiException] OAuthException: An active access token must be used to query information about the current user.
+REQUEST_URI=/fblog/
+---
+2013/10/21 18:37:12 [error] [exception.FacebookApiException] OAuthException: An active access token must be used to query information about the current user.
+REQUEST_URI=/fblog/
+---
+2013/10/21 18:40:14 [error] [exception.FacebookApiException] OAuthException: An active access token must be used to query information about the current user.
+REQUEST_URI=/fblog/
+---
+2013/10/21 18:41:42 [error] [exception.FacebookApiException] OAuthException: An active access token must be used to query information about the current user.
+REQUEST_URI=/fblog/
+---
