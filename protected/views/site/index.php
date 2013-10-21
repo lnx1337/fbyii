@@ -6,10 +6,10 @@ echo $userid."<br>";
 ?>
 <?php 
 
-$results = Yii::app()->facebook->api('/me');
+//$results = Yii::app()->facebook->api('/me');
 
 
-print_r($results);
+//print_r($results);
  ?>
 
 
