@@ -1,6 +1,6 @@
 <?php
 
-$userid = Yii::app()->facebook->getUser(); 
+          $userid = Yii::app()->facebook->getUser(); 
          $loginUrl = Yii::app()->facebook->getLoginUrl();
 
           echo $userid;
